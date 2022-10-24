@@ -20,7 +20,10 @@ After that we analyzed a dataset with using Postman. We saw that datas comes cor
 # Simulator Views
 
 
-https://user-images.githubusercontent.com/67964948/197515406-e9b6abb2-0753-4548-9063-0c214762aa84.mov
+
+https://user-images.githubusercontent.com/67964948/197516285-2106c76a-f558-47fa-9a87-4c364f4342d2.mov
+
+
 
 
 
