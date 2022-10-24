@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		696ED3EE28FFE45F0072C793 /* InvioFilmAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696ED3ED28FFE45F0072C793 /* InvioFilmAppApp.swift */; };
-		696ED3F028FFE45F0072C793 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696ED3EF28FFE45F0072C793 /* ContentView.swift */; };
+		691C3B732902FED7006BB14D /* FilmDetay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C3B722902FED7006BB14D /* FilmDetay.swift */; };
+		691C3B752903DDF2006BB14D /* FilmDetayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C3B742903DDF2006BB14D /* FilmDetayViewModel.swift */; };
+		691C3B772903E0A1006BB14D /* DetayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C3B762903E0A1006BB14D /* DetayView.swift */; };
+		696ED3EE28FFE45F0072C793 /* InvioFilmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696ED3ED28FFE45F0072C793 /* InvioFilmApp.swift */; };
+		696ED3F028FFE45F0072C793 /* FilmListeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696ED3EF28FFE45F0072C793 /* FilmListeView.swift */; };
 		696ED3F228FFE4610072C793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696ED3F128FFE4610072C793 /* Assets.xcassets */; };
 		696ED3F528FFE4610072C793 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696ED3F428FFE4610072C793 /* Preview Assets.xcassets */; };
+		696ED3FC29001DDA0072C793 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696ED3FB29001DDA0072C793 /* Film.swift */; };
+		696ED403290021DE0072C793 /* DownloaderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696ED402290021DE0072C793 /* DownloaderClient.swift */; };
+		696ED405290051130072C793 /* FilmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696ED404290051130072C793 /* FilmViewModel.swift */; };
+		697D19032902DEA700DE2E49 /* ImageDownloaderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D19022902DEA700DE2E49 /* ImageDownloaderClient.swift */; };
+		697D19052902DFA600DE2E49 /* OzelImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D19042902DFA600DE2E49 /* OzelImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		696ED3EA28FFE45F0072C793 /* InvioFilmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvioFilmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		696ED3ED28FFE45F0072C793 /* InvioFilmAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvioFilmAppApp.swift; sourceTree = "<group>"; };
-		696ED3EF28FFE45F0072C793 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		691C3B722902FED7006BB14D /* FilmDetay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetay.swift; sourceTree = "<group>"; };
+		691C3B742903DDF2006BB14D /* FilmDetayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetayViewModel.swift; sourceTree = "<group>"; };
+		691C3B762903E0A1006BB14D /* DetayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayView.swift; sourceTree = "<group>"; };
+		696ED3EA28FFE45F0072C793 /* InvioFilm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvioFilm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		696ED3ED28FFE45F0072C793 /* InvioFilmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvioFilmApp.swift; sourceTree = "<group>"; };
+		696ED3EF28FFE45F0072C793 /* FilmListeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListeView.swift; sourceTree = "<group>"; };
 		696ED3F128FFE4610072C793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		696ED3F428FFE4610072C793 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		696ED3FB29001DDA0072C793 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		696ED402290021DE0072C793 /* DownloaderClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloaderClient.swift; sourceTree = "<group>"; };
+		696ED404290051130072C793 /* FilmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewModel.swift; sourceTree = "<group>"; };
+		697D19022902DEA700DE2E49 /* ImageDownloaderClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderClient.swift; sourceTree = "<group>"; };
+		697D19042902DFA600DE2E49 /* OzelImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzelImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,11 @@
 		696ED3E128FFE45F0072C793 = {
 			isa = PBXGroup;
 			children = (
+				696ED4012900216D0072C793 /* Service */,
+				696ED40029001E010072C793 /* ModelView */,
+				696ED3FF29001DF90072C793 /* View */,
+				696ED3FE29001DF30072C793 /* App */,
+				696ED3FD29001DE60072C793 /* Model */,
 				696ED3EC28FFE45F0072C793 /* InvioFilmApp */,
 				696ED3EB28FFE45F0072C793 /* Products */,
 			);
@@ -43,7 +64,7 @@
 		696ED3EB28FFE45F0072C793 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				696ED3EA28FFE45F0072C793 /* InvioFilmApp.app */,
+				696ED3EA28FFE45F0072C793 /* InvioFilm.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +72,6 @@
 		696ED3EC28FFE45F0072C793 /* InvioFilmApp */ = {
 			isa = PBXGroup;
 			children = (
-				696ED3ED28FFE45F0072C793 /* InvioFilmAppApp.swift */,
-				696ED3EF28FFE45F0072C793 /* ContentView.swift */,
 				696ED3F128FFE4610072C793 /* Assets.xcassets */,
 				696ED3F328FFE4610072C793 /* Preview Content */,
 			);
@@ -67,12 +86,57 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		696ED3FD29001DE60072C793 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				696ED3FB29001DDA0072C793 /* Film.swift */,
+				691C3B722902FED7006BB14D /* FilmDetay.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		696ED3FE29001DF30072C793 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				696ED3ED28FFE45F0072C793 /* InvioFilmApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		696ED3FF29001DF90072C793 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				696ED3EF28FFE45F0072C793 /* FilmListeView.swift */,
+				697D19042902DFA600DE2E49 /* OzelImage.swift */,
+				691C3B762903E0A1006BB14D /* DetayView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		696ED40029001E010072C793 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				696ED404290051130072C793 /* FilmViewModel.swift */,
+				691C3B742903DDF2006BB14D /* FilmDetayViewModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		696ED4012900216D0072C793 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				696ED402290021DE0072C793 /* DownloaderClient.swift */,
+				697D19022902DEA700DE2E49 /* ImageDownloaderClient.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		696ED3E928FFE45F0072C793 /* InvioFilmApp */ = {
+		696ED3E928FFE45F0072C793 /* InvioFilm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 696ED3F828FFE4610072C793 /* Build configuration list for PBXNativeTarget "InvioFilmApp" */;
+			buildConfigurationList = 696ED3F828FFE4610072C793 /* Build configuration list for PBXNativeTarget "InvioFilm" */;
 			buildPhases = (
 				696ED3E628FFE45F0072C793 /* Sources */,
 				696ED3E728FFE45F0072C793 /* Frameworks */,
@@ -82,9 +146,9 @@
 			);
 			dependencies = (
 			);
-			name = InvioFilmApp;
+			name = InvioFilm;
 			productName = InvioFilmApp;
-			productReference = 696ED3EA28FFE45F0072C793 /* InvioFilmApp.app */;
+			productReference = 696ED3EA28FFE45F0072C793 /* InvioFilm.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +166,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 696ED3E528FFE45F0072C793 /* Build configuration list for PBXProject "InvioFilmApp" */;
+			buildConfigurationList = 696ED3E528FFE45F0072C793 /* Build configuration list for PBXProject "InvioFilm" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +179,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				696ED3E928FFE45F0072C793 /* InvioFilmApp */,
+				696ED3E928FFE45F0072C793 /* InvioFilm */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +201,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				696ED3F028FFE45F0072C793 /* ContentView.swift in Sources */,
-				696ED3EE28FFE45F0072C793 /* InvioFilmAppApp.swift in Sources */,
+				691C3B772903E0A1006BB14D /* DetayView.swift in Sources */,
+				696ED3F028FFE45F0072C793 /* FilmListeView.swift in Sources */,
+				691C3B732902FED7006BB14D /* FilmDetay.swift in Sources */,
+				696ED3FC29001DDA0072C793 /* Film.swift in Sources */,
+				697D19052902DFA600DE2E49 /* OzelImage.swift in Sources */,
+				696ED405290051130072C793 /* FilmViewModel.swift in Sources */,
+				696ED3EE28FFE45F0072C793 /* InvioFilmApp.swift in Sources */,
+				696ED403290021DE0072C793 /* DownloaderClient.swift in Sources */,
+				691C3B752903DDF2006BB14D /* FilmDetayViewModel.swift in Sources */,
+				697D19032902DEA700DE2E49 /* ImageDownloaderClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +392,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		696ED3E528FFE45F0072C793 /* Build configuration list for PBXProject "InvioFilmApp" */ = {
+		696ED3E528FFE45F0072C793 /* Build configuration list for PBXProject "InvioFilm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				696ED3F628FFE4610072C793 /* Debug */,
@@ -329,7 +401,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		696ED3F828FFE4610072C793 /* Build configuration list for PBXNativeTarget "InvioFilmApp" */ = {
+		696ED3F828FFE4610072C793 /* Build configuration list for PBXNativeTarget "InvioFilm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				696ED3F928FFE4610072C793 /* Debug */,

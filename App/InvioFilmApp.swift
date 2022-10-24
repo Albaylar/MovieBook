@@ -11,7 +11,7 @@ import SwiftUI
 struct InvioFilmAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FilmListeView()
         }
     }
 }
