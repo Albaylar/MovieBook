@@ -65,7 +65,6 @@ struct FilmListeView: View {
                     Spacer()
                     ActivityIndicator()
                     Spacer()
-                    
                 }
                 else {
                         List(filmListeViewModel.filmler, id: \.imdbId){
