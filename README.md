@@ -18,7 +18,14 @@ After that we analyzed a dataset with using Postman. We saw that datas comes cor
 - https://www.omdbapi.com/
 
 # Simulator Views
-<img width="361" alt="Ekran Resmi 2022-10-24 12 55 42" src="https://user-images.githubusercontent.com/67964948/197500690-b1312415-01eb-473b-8975-01dde4636038.png">
+
+
+
+https://user-images.githubusercontent.com/67964948/197516285-2106c76a-f558-47fa-9a87-4c364f4342d2.mov
+
+
+
+
 
 <img width="360" alt="Ekran Resmi 2022-10-24 12 56 06" src="https://user-images.githubusercontent.com/67964948/197500738-2f017d35-c460-4bf7-8a85-5fcd1c9f8879.png">
 
