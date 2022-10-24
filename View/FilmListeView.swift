@@ -23,7 +23,7 @@ struct FilmListeView: View {
     var body: some View {
         NavigationView{
             VStack{
-                TextField("     "+"Search", text: $aranacakFilm,onEditingChanged: {_ in}, onCommit: {
+                TextField("      "+"Search", text: $aranacakFilm,onEditingChanged: {_ in}, onCommit: {
                 self.filmListeViewModel.filmAramasıYap(filmIsmi: aranacakFilm.trimmingCharacters(in: .whitespacesAndNewlines).addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) ?? aranacakFilm)
             })
             .padding()
