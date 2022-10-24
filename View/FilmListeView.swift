@@ -118,8 +118,8 @@ struct ActivityIndicator: View {
     
     var body: some View {
         Circle()
-            .trim(from: 0.0, to: 0.6)
-            .stroke(.blue, lineWidth: 5.0)
+            .trim(from: 0.0, to: 0.7)
+            .stroke(.yellow, lineWidth:7.0)
             .frame(width: 60, height: 120)
             .rotationEffect(Angle(degrees: degress))
             .onAppear(perform: {self.start()})
@@ -128,7 +128,7 @@ struct ActivityIndicator: View {
     func start() {
         _ = Timer.scheduledTimer(withTimeInterval: 0.02, repeats: true) { timer in
             withAnimation {
-                self.degress += 10.0
+                self.degress += 8.0
             }
             if self.degress == 360.0 {
                 self.degress = 0.0
