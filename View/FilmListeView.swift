@@ -15,7 +15,6 @@ struct FilmListeView: View {
     @State private var ButtonEditing = false
     
     
-    
     init() {
         self.filmListeViewModel = FilmListeViewModel()
         self.filmListeViewModel.filmAramasıYap(filmIsmi: "")
@@ -62,38 +61,45 @@ struct FilmListeView: View {
                     .padding()
                     
                 }
-                    
-                
-                
-                List(filmListeViewModel.filmler, id: \.imdbId){
-                    film in
-                    NavigationLink(destination: DetayView(imdbId: film.imdbId), label: {
-                        HStack{
-                        OzelImage(url: film.poster)
-                                .frame(width: UIScreen.main.bounds.width*0.25,height: UIScreen.main.bounds.height*0.18, alignment: .leading)
-                                .clipShape(RoundedRectangle(cornerRadius: 20))
-                                .padding()
-                        VStack(alignment: .center){
-                            Text(film.title)
-                                .font(.title2)
-                                .foregroundColor(.blue)
-                                .padding()
-                            Text(film.year)
-                                .font(.title2)
-                                .foregroundColor(.green)
-                            Text(film.type)
-                                .font(.title2)
-                                .foregroundColor(.gray)
-                                .padding()
-                            }
-                        
-                        }
-                        
-                    })
+                if filmListeViewModel.filmler.isEmpty  {
+                    Spacer()
+                    ActivityIndicator()
+                    Spacer()
                     
                 }
-                .navigationTitle("Cinema & Series")
-            }
+                else {
+                        List(filmListeViewModel.filmler, id: \.imdbId){
+                            film in
+                            NavigationLink(destination: DetayView(imdbId: film.imdbId), label: {
+                                HStack{
+                                OzelImage(url: film.poster)
+                                        .frame(width: UIScreen.main.bounds.width*0.25,height: UIScreen.main.bounds.height*0.18, alignment: .leading)
+                                        .clipShape(RoundedRectangle(cornerRadius: 20))
+                                        .padding()
+                                VStack(alignment: .center){
+                                    Text(film.title)
+                                        .font(.title2)
+                                        .foregroundColor(.blue)
+                                        .padding()
+                                    Text(film.year)
+                                        .font(.title2)
+                                        .foregroundColor(.green)
+                                    Text(film.type)
+                                        .font(.title2)
+                                        .foregroundColor(.gray)
+                                        .padding()
+                                    }
+                                
+                                }
+                                
+                            })
+                            
+                        }
+                        
+                }
+                    
+             
+            }.navigationTitle("Cinema & Series")
             
         }
         
@@ -107,4 +113,28 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 //Loading animasyonu
+struct ActivityIndicator: View {
+    
+    @State var degress = 0.0
+    
+    var body: some View {
+        Circle()
+            .trim(from: 0.0, to: 0.6)
+            .stroke(.blue, lineWidth: 5.0)
+            .frame(width: 60, height: 120)
+            .rotationEffect(Angle(degrees: degress))
+            .onAppear(perform: {self.start()})
+    }
+    
+    func start() {
+        _ = Timer.scheduledTimer(withTimeInterval: 0.02, repeats: true) { timer in
+            withAnimation {
+                self.degress += 10.0
+            }
+            if self.degress == 360.0 {
+                self.degress = 0.0
+            }
+        }
+    }
+}
 
